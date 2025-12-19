@@ -1,0 +1,15 @@
+{
+  "serviceName": "Get an air pollution assessment",
+  "serviceUrl": "https://www.gov.uk/guidance/get-an-air-pollution-assessment",
+  "pageTitle": "There is a problem with the service pages – Get an air pollution assessment – GOV.UK Design System",
+  "heading": "Sorry, there is a problem with the service",
+  "bodyText": [
+    "Try again later.",
+    "The service may not have saved your data. When the service is available, you may have to start again."
+  ],
+  "contactIntro": "If you have any questions, please contact the '{{serviceName}}' service team.",
+  "phone": "0330 124 2162",
+  "openingTimes": "Monday to Friday: 8.30am to 4pm (except statutory holidays)",
+  "email": "get.an.air.pollution.assessment@defra.gov.uk",
+  "responseTime": "We aim to respond within 2 working days"
+}

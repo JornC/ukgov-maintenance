@@ -1,0 +1,4 @@
+// Import all of govuk-frontend
+// This is simpler and ensures we have all the styles needed
+// The minification step will handle file size
+@use "govuk-frontend/dist/govuk/index";
