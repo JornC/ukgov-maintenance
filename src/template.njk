@@ -36,10 +36,10 @@
       data-module="govuk-skip-link"
     >Skip to main content</a>
 
-    <div class="govuk-header">
+    <header class="govuk-header" data-module="govuk-header">
       <div class="govuk-header__container govuk-width-container">
         <div class="govuk-header__logo">
-          <a href="https://www.gov.uk/" class="govuk-header__homepage-link">
+          <a href="https://www.gov.uk/" class="govuk-header__link govuk-header__link--homepage">
             <svg
               focusable="false"
               role="img"
@@ -68,20 +68,13 @@
             </svg>
           </a>
         </div>
-      </div>
-    </div>
-
-    <section aria-label="Service information" class="govuk-service-navigation">
-      <div class="govuk-width-container">
-        <div class="govuk-service-navigation__container">
-          <span class="govuk-service-navigation__service-name">
-            <a href="{{ serviceUrl }}" class="govuk-service-navigation__link">
-              {{ serviceName }}
-            </a>
-          </span>
+        <div class="govuk-header__content">
+          <a href="{{ serviceUrl }}" class="govuk-header__link govuk-header__service-name">
+            {{ serviceName }}
+          </a>
         </div>
       </div>
-    </section>
+    </header>
 
     <div class="govuk-width-container">
       <main
